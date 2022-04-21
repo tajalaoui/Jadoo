@@ -1,0 +1,200 @@
+body {
+  margin: 0;
+  font-family: "Poppins", Arial, sans-serif;
+  line-height: 1.5;
+  color: #5e6282;
+  background-color: #fffefe;
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased;
+}
+
+.destination-shape {
+  position: absolute;
+  left: 97.5%;
+  top: 390px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #212832 !important;
+  font-weight: 500 !important;
+}
+
+section {
+  padding: 7.1% 0;
+}
+
+.bg-holder {
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  z-index: -100;
+}
+
+h3 {
+  font-family: Volkhov, sans-serif;
+  font-weight: bold;
+
+  color: #14183e;
+  font-size: 50px !important;
+}
+
+h4 {
+  color: #14183e;
+}
+
+a {
+  color: #212832;
+  text-decoration: none;
+}
+
+input {
+  width: 421px;
+  height: 68px;
+  border: none !important;
+}
+
+.btn-subscribe {
+  width: 180px;
+  height: 68px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ff946d), to(#ff7d68));
+  background-image: -o-linear-gradient(top, #ff946d, #ff7d68);
+  background-image: linear-gradient(to bottom, #ff946d, #ff7d68);
+  border: none;
+  border-radius: 0.625rem;
+  padding: 1rem 2.5rem;
+}
+
+.signup-btn {
+  padding: 6px 12px !important;
+}
+
+a:hover {
+  color: #f1a501;
+}
+
+.card {
+  width: 315 !important;
+  height: 457 !important;
+  border: 0;
+  display: block;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  background-color: #fffefe;
+}
+
+.card-body {
+  z-index: 100;
+}
+
+.pre-header-text {
+  font-family: Poppins, sans-serif;
+  color: #df6951 !important;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.hero-title {
+  font-family: Volkhov, sans-serif;
+  color: #181e4b;
+  font-size: 5.25rem;
+}
+
+/* #hero-title-span::before {
+  content: "";
+  position: absolute;
+  right: 5.0px;
+  top: 10.0px;
+  width: 385px;
+  height: 12px;
+  background-image: url(../img/hero/shape.svg);
+  background-size: contain;
+  z-index: -1;
+} */
+
+.heading-text {
+  font-family: Poppins, sans-serif;
+  color: #5e6282;
+  line-height: 1.7;
+}
+
+.btn {
+  padding: 0.875rem 1.625rem;
+  border-radius: 9px;
+  font-family: Poppins, sans-serif;
+  font-size: 1.125rem;
+}
+
+.card-destination-price {
+  font-size: 1.2rem !important;
+}
+
+.card-destination-price,
+.card-country-name {
+  color: #5e6282;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.text-secondary {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.find-out-btn {
+  background-color: #f1a501;
+}
+
+.play-btn {
+  display: inline-flex;
+  box-shadow: 0 0.9375rem 1.875rem 0 rgb(223 105 81 / 30%);
+  height: 3.25rem;
+  width: 3.25rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  background-color: #df6951;
+  border: none;
+}
+
+.card-about-us-second {
+  border-radius: 10px;
+  transform: translate(25px, 25px);
+  background: #f4f4f413;
+  z-index: -1;
+  margin: 47px 0px 0px 25px;
+  padding: 0px 0px 30px 37px;
+  border: 1px solid #e1e1e1;
+}
+
+.subscribe-heading {
+  font-size: 33px;
+  text-align: center;
+}
+
+.footer-link {
+  font-size: 18px;
+  font-weight: 500;
+  color: #5e6282;
+}
+
+.social-icon {
+  width: 41px;
+  height: 41px;
+  background: #eee;
+  color: #080809;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
